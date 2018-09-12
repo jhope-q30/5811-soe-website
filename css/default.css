@@ -850,7 +850,6 @@ span.soe-hero-text { display:block; }
 	overflow-y:auto;
 	background-color:#f7f7f5 !important;
 }
-.soe-callout-results a { overflow-wrap: break-word; }
 
 .soe-callout-result { border-bottom:1px solid #dcddde; padding:24px 16px 16px 16px; }
 .soe-callout-result:last-child { border:0; }
@@ -1025,4 +1024,27 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 }
 @media (min-width: 1982px) {
 	.home .soe-callout.soe-eh-box span.soe-section { min-height:auto; }
+}
+
+/* *************************************
+* UPDATES
+* ********************************** */
+
+.soe-callout-results a { overflow-wrap: break-word; }
+
+@media (min-width: 300px) {
+	.soe-logo { padding:8px !important; }
+	.soe-logo img { max-height:52px; }
+}
+@media (min-width: 768px) {
+	.soe-logo { padding:8px 0 8px 8px !important; }
+	.soe-logo img { max-height:80px; }
+	#soe-head .soe-main-nav ul.soe-right-nav { padding:8px 0 8px 0; }
+	/* navigation widths */
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-your-small-business span.soe-nav-break { max-width:104px; }
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-industry-and-large-business span.soe-nav-break { max-width:125px; }
+}
+@media (min-width: 800px) {
+	.soe-logo img { max-height:100px; }
+	#soe-head .soe-main-nav ul.soe-right-nav { padding:8px; }
 }
