@@ -1052,3 +1052,7 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 /* news callout link color */
 
 .soe-callout-news a { color:#24692c !important; }
+
+/* footer svg */
+
+#soe-footer .soe-logo img { width:100%; }
