@@ -1044,7 +1044,7 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 	#soe-head .soe-main-nav ul.soe-right-nav li.for-your-small-business span.soe-nav-break { max-width:104px; }
 	#soe-head .soe-main-nav ul.soe-right-nav li.for-industry-and-large-business span.soe-nav-break { max-width:125px; }
 }
-@media (min-width: 800px) {
+@media (min-width: 820px) {
 	.soe-logo img { max-height:100px; }
 	#soe-head .soe-main-nav ul.soe-right-nav { padding:8px; }
 }
