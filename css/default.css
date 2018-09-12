@@ -1048,3 +1048,7 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 	.soe-logo img { max-height:100px; }
 	#soe-head .soe-main-nav ul.soe-right-nav { padding:8px; }
 }
+
+/* news callout link color */
+
+.soe-callout-news a { color:#24692c !important; }
