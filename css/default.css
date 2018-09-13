@@ -1109,3 +1109,9 @@ span.soe-section.for-contractors-and-allies { color:#fffffe; }
 		color:#ffffff !important;
 	}
 }
+
+/* francais navigation */
+
+@media (min-width: 768px) {
+	#soe-head .soe-main-nav ul.soe-right-nav li.fluid span.soe-nav-break { max-width:200px !important; }
+}

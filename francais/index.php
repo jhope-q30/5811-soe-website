@@ -112,7 +112,11 @@ function __toplevelactive( $link ){
 						</li>
 						<li class="dropdown menu-parent for-your-small-business <?php echo __toplevelactive( 'for-your-small-business' ); ?> fluid" role="menu" tabindex="0" aria-haspopup="true" title="For your Small Business menu">
 							<a href="#" role="menuitem" tabindex="-1"><span class="soe-nav-break">Astuces et Conseils</span></a>
+							
 							<ul class="dropdown-menu" role="menu" aria-hidden="true">
+								<div class="container">
+								<div class="row">
+								<div class="col-sm-6">
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Qu’est ce qu’une maison à consommation net zero?</a></li>
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">La domotique expliquée</a></li>
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Travail à domicile</a></li>
@@ -120,11 +124,31 @@ function __toplevelactive( $link ){
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Guide d’achat : Ampoules DEL</a></li>
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">What’s phantom power and how can I track it?</a></li>
 								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Douze moyens d’améliorer l’efficacité énergétique de votre habitation</a></li>
-								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Douze moyens d’améliorer l’efficacité énergétique de votre habitation</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">6 signs your home needs a Humidity Fix</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Home energy audit reduces household energy costs</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Comment la pulvérisation de mousse isolante peut apporter une valeur ajoutée à vos rénovations</a></li>
+</div>
+								<div class="col-sm-6">
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Think you’re an Energy Einstein?</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Conseils d’économie d’énergie pour la vie en condo</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Votre thermostat intelligent offre une multitude de possibilités d’économie… En tirez-vous le maximum?</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Guide d’achat : Téléviseurs écoénergétiques</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Le nettoyage du printemps : aidez à prévenir les allergies et économisez l’énergie dans votre habitation</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Guide d’achat : Le logement étudiant écoénergétique</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Ajuster les pales de votre ventilateur de plafond selon la saison</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">How energy efficient are you?</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">Guide d’achat : Pompes à Chaleurs</a></li>
+								<li role="menuitem" class="menu-item" tabindex="-1"><a href="#">L’emplacement idéal pour optimiser l’efficacité de votre thermostat</a></li>
+</div>
+</div>
+</div>
 							</ul>
+								
+								
+							
 						</li>
 						<li class="dropdown menu-parent for-industry-and-large-business <?php echo __toplevelactive( 'for-industry-and-large-business' ); ?> fluid" role="menu" tabindex="0" aria-haspopup="true" title="For Industry & Large Business menu">
-							<a href="<?php echo docroot; ?>for-industry-large-business/" role="menuitem" tabindex="-1"><span class="soe-nav-break">For Industry &amp; Large </span>Business</a>
+							<a href="<?php echo docroot; ?>for-industry-large-business/" role="menuitem" tabindex="-1"><span class="soe-nav-break">Aide Résidentielle</span></a>
 						</li>
 					</ul>
 				</div>
