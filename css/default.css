@@ -1052,3 +1052,60 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 /* footer svg */
 
 #soe-footer .soe-logo img { width:100%; }
+
+/* tag in section links wrap lines */
+
+@media (min-width: 300px) {
+	.soe-tag-insection a.btn { white-space: normal !important; }
+}
+@media (min-width: 560px) {
+	.soe-tag-insection a.btn { white-space: nowrap !important; }
+}
+
+/* updated navigation section names */
+
+span.soe-section.for-business-and-industry { color:#000000; }
+.for-business-and-industry,
+.for-business-and-industry .soe-section-color,
+.for-business-and-industry .soe-tag-btn .active { background-color:#f26d04 !important; }
+.for-business-and-industry .soe-content,
+.for-business-and-industry ul.soe-section-list li.active { border-color:#f26d04 !important; }
+#soe-head .soe-main-nav ul.soe-right-nav li.for-business-and-industry.active { border-color:#f26d04 !important; }
+@media (min-width: 768px) {
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-business-and-industry span.soe-nav-break { max-width:125px; }
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-business-and-industry:hover,
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-business-and-industry.menu-parent-active { background-color:#f26d04 !important; }
+}
+@media (max-width: 767px) {
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-business-and-industry { background-color:#f26d04 !important; }
+}
+
+span.soe-section.for-contractors-and-allies { color:#fffffe; }
+.for-contractors-and-allies,
+.for-contractors-and-allies .soe-section-color,
+.for-contractors-and-allies .soe-tag-btn .active { background-color:#54585a !important; }
+.for-contractors-and-allies .soe-tag-btn .active,
+.for-contractors-and-allies .soe-section-color.soe-info.soe-blockquote,
+.for-contractors-and-allies .soe-callout-content.soe-section-color { color:#fffffe; }
+.for-contractors-and-allies a.soe-callout-link,
+.for-contractors-and-allies button.soe-callout-link { background-color:#fedb00; }
+.for-contractors-and-allies .soe-sub-footer { color:#fffffe !important; }
+.for-contractors-and-allies .soe-content,
+.for-contractors-and-allies ul.soe-section-list li.active { border-color:#54585a !important; }
+@media (min-width: 768px) {
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies span.soe-nav-break { max-width:130px; }
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies:hover,
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies:hover a,
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies.menu-parent-active,
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies.menu-parent-active a {
+		background-color:#54585a !important;
+		color:#ffffff !important;
+	}
+}
+@media (max-width: 767px) {
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies,
+	#soe-head .soe-main-nav ul.soe-right-nav li.for-contractors-and-allies a {
+		background-color:#54585a !important;
+		color:#ffffff !important;
+	}
+}
