@@ -712,6 +712,7 @@ span.soe-hero-text { display:block; }
 * ********************************** */
 .soe-callout { margin-bottom:24px; }
 .soe-callout .soe-callout-top {
+	position: relative;
 	margin-top:8px;
 	display:block;
 	-webkit-box-shadow: 0 16px 8px 3px rgba(0, 0, 0, 0.2);
@@ -1067,3 +1068,7 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 @media (min-width: 768px) {
 	#soe-head .soe-main-nav ul.soe-right-nav li.fluid span.soe-nav-break { max-width:200px !important; }
 }
+
+/* safari fixes */
+
+.soe-callout .soe-callout-content { position:relative; } /* fixes drop shadow on safari */
