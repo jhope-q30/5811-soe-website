@@ -1080,5 +1080,8 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 /* soe info image fix for small screens */
 
 @media (min-width: 300px) {
-	.soe-info.soe-info-image img { max-width:100% !important; }
+	.soe-info.soe-info-image img { margin:0 auto; margin-bottom:16px; max-width:100% !important; }
+}
+@media (min-width: 768px) {
+	.soe-info.soe-info-image img { margin:0 16px 0 0; }
 }
