@@ -1076,3 +1076,9 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 /* section drop down nav */
 
 .soe-section-dd ul.dropdown-menu a { white-space: normal !important; }
+
+/* soe info image fix for small screens */
+
+@media (min-width: 300px) {
+	.soe-info.soe-info-image img { max-width:100% !important; }
+}
