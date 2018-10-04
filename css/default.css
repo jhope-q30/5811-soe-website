@@ -1085,3 +1085,6 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 @media (min-width: 768px) {
 	.soe-info.soe-info-image img { margin:0 16px 0 0; }
 }
+
+/* nav bar form font size */
+.navbar-form input[type="text"]::-webkit-input-placeholder { font-size:0.9em; }
