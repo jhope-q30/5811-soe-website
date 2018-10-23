@@ -1087,4 +1087,9 @@ code { margin:0 0 0.5em 0; display:inline-block; }
 }
 
 /* nav bar form font size */
+
 .navbar-form input[type="text"]::-webkit-input-placeholder { font-size:0.9em; }
+
+/* update for soe-callout cards */
+
+a.soe-callout { display:block; }
